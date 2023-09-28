@@ -24,4 +24,4 @@ app.post("/api/v1", function(req, res) {
 
 
 // Start the server and make it listen for connections on port 3000
-app.listen(port);
+app.listen(port, () => console.log(`listening on port ${port}`));
