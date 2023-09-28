@@ -1,2 +1,2 @@
-# NodeJS-Cookbook
-A Collection of NodeJS HowTos
+# NodeJS-HOWTOs
+A Collection of NodeJS-HOWTOs
