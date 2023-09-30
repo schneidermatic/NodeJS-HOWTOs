@@ -3,10 +3,10 @@
 #!/usr/bin/env bash
 
 #==============================================================================
-# FILE:          send.sh
+# FILE:          client.sh
 # AUTOHR:        Markus Schneider
 # DATE:          2023-09-28
-# PURPOSE:       Simple script for posting json data. 
+# PURPOSE:       Simple Server Client
 #==============================================================================
 
 ##-----------------------------------------------
