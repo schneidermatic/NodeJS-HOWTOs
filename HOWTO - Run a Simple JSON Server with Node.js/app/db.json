@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "We should think about to use Azure DevOps.",
+      "description": "Before we should use Azure DevOps we have to discuss it."
+    },
+    {
+      "id": 2,
+      "title": "Setup an Build Pipeline in Azure.",
+      "description": "Let's create a Build Pipeline for building the App."
+    },
+    {
+      "id": 3,
+      "title": "Setup an Release Pipeline in Azure.",
+      "description": "Define a Release Pipeline in Azure for releasing the App."
+    }
+  ]
+}
