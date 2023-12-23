@@ -5,6 +5,7 @@ This repository contains a collection of NodeJS-HOWTOs for learning purposes.
 <ol>
 <li><a href="#tested-with">Tested With</a></li>
 <li><a href="#content">Content</a></li>
+<li><a href="#setup">Setup</a></li>
 <li><a href="#contributing">Contributing</a></li>
 </ol>
 
@@ -33,7 +34,6 @@ Id  | Description
 008 | HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)
 
 ## SETUP
-
 1. Clone the NodeJS-HOWTOs repo
 
         $ cd ~
@@ -51,7 +51,7 @@ Id  | Description
 3. Clean up the HOWTO folder
 
         $ app_rm
-        
+
 ## CONTRIBUTING
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
