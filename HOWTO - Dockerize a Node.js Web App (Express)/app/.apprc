@@ -40,41 +40,41 @@ export CWD=$(pwd)
 ##===============================================
 ## CLI SHORTHAND FUNCTIONS
 ##===============================================
-x_build() {
+app_build() {
     docker build -t $IMAGE .
 }
 
-x_start() {
+app_start() {
    docker run -h $HOSTNAME -dit -p 3000:3000 --name $NAME $IMAGE
 }
 
-x_stop() {
+app_stop() {
    docker stop $NAME
 }
 
-x_rm() {
+app_rm() {
    docker rm -f $NAME
 }
 
-x_rmi() {
+app_rmi() {
    docker rmi $(docker images $IMAGE -q)
 }
 
-x_setup() {
-    x_build && \
-    x_start
+app_setup() {
+    app_build && \
+    app_start
 }
 
-x_destroy() {
-    x_rm && \
-    x_rmi
+app_destroy() {
+    app_rm && \
+    app_rmi
 }
 
-x_rebuild() {
-    x_stop && \
-    x_rm && \
-    x_rmi && \
-    x_setup
+app_rebuild() {
+    app_stop && \
+    app_rm && \
+    app_rmi && \
+    app_setup
 }
 
 
@@ -84,10 +84,10 @@ x_rebuild() {
 #####  ---  LIST SHORTHAND FUNCTIONS ---    #####
 #################################################
 #################################################
-x_ls() {
+app_ls() {
   echo "FUNCTIONS"
   echo "========="
-  declare -F | grep "x_" | sed -E 's/declare -f //'
+  declare -F | grep "app_" | sed -E 's/declare -f //'
 }
 
 
