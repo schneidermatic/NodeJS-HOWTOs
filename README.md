@@ -32,6 +32,26 @@ Id  | Description
 007 | HOWTO - Run Worker Threads with Node.js (Express)
 008 | HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)
 
+## SETUP
+
+1. Clone the NodeJS-HOWTOs repo
+
+        $ cd ~
+        $ mkdir workspace
+        $ cd workspace
+        $ git clone git@github.com:schneidermatic/NodeJS-HOWTOs.git
+
+2. Select one of the HOWTOs i.e. 
+
+        $ cd NodeJS-HOWTOs/HOWTO - Create a File Uploading with Node.js (Express)
+        $ source ./.apprc
+        $ app_ls
+        $ app_run
+
+3. Clean up the HOWTO folder
+
+        $ app_rm
+        
 ## CONTRIBUTING
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
