@@ -37,18 +37,18 @@ Id  | Description
 1. Clone the NodeJS-HOWTOs repo
 
         $ cd ~
-        $ mkdir workspace
-        $ cd workspace
         $ git clone git@github.com:schneidermatic/NodeJS-HOWTOs.git
 
 2. Select one of the HOWTOs i.e. 
 
-        $ cd NodeJS-HOWTOs/HOWTO - Create a File Uploading with Node.js (Express)
+        $ cd NodeJS-HOWTOs/"HOWTO - Create a File Uploading with Node.js (Express)"/app
         $ source ./.apprc
         $ app_ls
         $ app_run
 
-3. Clean up the HOWTO folder
+3. Open your Browser an go to http://localhost:3000/public/nodejs.png
+
+4. Remove the 'node_modules' folder 
 
         $ app_rm
 
