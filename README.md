@@ -48,7 +48,9 @@ Id  | Description
 
 3. Open your Browser an go to http://localhost:3000/public/nodejs.png
 
-4. Remove the 'node_modules' folder 
+4. Stop the app with 'ctrl c' 
+
+5. Remove the 'node_modules' folder 
 
         $ app_rm
 
