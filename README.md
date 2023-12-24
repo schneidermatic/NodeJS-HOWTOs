@@ -32,6 +32,7 @@ Id  | Description
 006 | HOWTO - Run a Simple JSON Server with Node.js
 007 | HOWTO - Run Worker Threads with Node.js (Express)
 008 | HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)
+009 | HOWTO - Use a View Engine (EJS) with Node.js (Express)
 
 ## SETUP
 1. Clone the NodeJS-HOWTOs repo
