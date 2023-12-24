@@ -27,7 +27,6 @@ app_new() {
 
     if [ ! -e "${PROJECT_PATH}" ]
     then
-        echo "Hello"
         mkdir -p "${PROJECT_PATH}"
         cp -r $PROJECT_HOME/resources/templates/app "${PROJECT_PATH}"
     fi
