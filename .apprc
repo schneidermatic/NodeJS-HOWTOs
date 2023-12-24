@@ -4,11 +4,18 @@
 # DATE:          2023-12-24
 # PURPOSE:       App specific run command file.
 #==============================================================================
-export PROJECT_HOME=
+APP_ENV=$HOME/.nodejshw2s
+
+if [ ! -e $APP_ENV ]
+then
+  cp ./resources/templates/nodejshowtos $APP_ENV
+fi
+
+source $HOME/.nodejshowtos
 
 if [ -z $PROJECT_HOME ]
 then
-    echo "Please set \$PROJECT_HOME in '.apprc' file!"
+    echo "Please set \$PROJECT_HOME in '$APP_ENV' file!"
 fi
 
 ##----------------------------------------
