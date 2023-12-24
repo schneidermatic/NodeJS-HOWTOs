@@ -52,7 +52,7 @@ var upload = multer({
 }).single("mypic");	 
 
 app.get("/",function(req,res){ 
-	res.render("Signup"); 
+	res.render("index"); 
 }) 
 	
 app.post("/uploadProfilePicture",function (req, res, next) { 
