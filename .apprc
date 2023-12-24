@@ -1,9 +1,43 @@
 #==============================================================================
 # FILE:          .apprc
 # AUTOHR:        Markus Schneider
-# DATE:          2023-12-23
+# DATE:          2023-12-24
 # PURPOSE:       App specific run command file.
 #==============================================================================
+export PROJECT_HOME=
+
+if [ -z $PROJECT_HOME ]
+then
+    echo "Please set \$PROJECT_HOME in '.apprc' file!"
+fi
+
+##----------------------------------------
+## CREATE A NEW HOWTO PROJECT
+##----------------------------------------
+app_new() {
+    PROJECT_NAME=$1
+    PROJECT_PATH=$PROJECT_HOME/"${PROJECT_NAME}"
+
+    if [ ! -e "${PROJECT_PATH}" ]
+    then
+        echo "Hello"
+        mkdir -p "${PROJECT_PATH}"
+        cp -r $PROJECT_HOME/resources/templates/app "${PROJECT_PATH}"
+    fi
+}
+
+##----------------------------------------
+## REMOVE A HOWTO PROJECT
+##----------------------------------------
+app_purge() {
+    PROJECT_NAME=$1
+    PROJECT_PATH=$PROJECT_HOME/"${PROJECT_NAME}"
+
+    if [ -e "${PROJECT_PATH}" ]
+    then
+        rm -r "${PROJECT_PATH}"
+    fi
+}
 
 ##----------------------------------------
 ## SETUP THE NODE PROJECT
@@ -24,7 +58,7 @@ app_run() {
 }
 
 ##----------------------------------------
-## RUN THE NODE APP
+## REMOVE 'node_modules'
 ##----------------------------------------
 app_rm() {
     if [ -e "$CWD"/node_modules ]
@@ -33,11 +67,28 @@ app_rm() {
     fi
 }
 
+
+##----------------------------------------
+## SHOW BANNER
+##----------------------------------------
+app_banner() {
+   cat << EOM
+  _   _  _____        _______ ___      
+ | | | |/ _ \ \      / /_   _/ _ \ ___ 
+ | |_| | | | \ \ /\ / /  | || | | / __|
+ |  _  | |_| |\ V  V /   | || |_| \__ \\
+ |_| |_|\___/  \_/\_/    |_| \___/|___/
+
+---------- 
+EOM
+}  
+
 ##########################################
 ##########################################
 #####   ---   ALL COMMANDS    ---    #####
 ##########################################
 ##########################################
 app_ls() {
+  app_banner
   declare -F | grep "app_" | sed -E 's/declare -f //'
 }
