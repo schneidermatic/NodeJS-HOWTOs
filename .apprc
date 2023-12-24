@@ -8,10 +8,10 @@ APP_ENV=$HOME/.nodejshw2s
 
 if [ ! -e $APP_ENV ]
 then
-  cp ./resources/templates/nodejshowtos $APP_ENV
+  cp ./resources/templates/nodejshw2s $APP_ENV
 fi
 
-source $HOME/.nodejshowtos
+source $HOME/.nodejshw2s
 
 if [ -z $PROJECT_HOME ]
 then
