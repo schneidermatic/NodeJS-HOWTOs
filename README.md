@@ -28,9 +28,9 @@ Id  | Description
 002 | HOWTO - Create Simple HTTP(s) Client with Node.js                    
 003 | HOWTO - Dockerize a Node.js Web App (Express)
 004 | HOWTO - Process JSON Post Requests with Node.js (Express)
-005 | HOWTO - Run a Simple File-Server with Node.js (Express)
-006 | HOWTO - Run a Simple JSON Server with Node.js
-007 | HOWTO - Run Worker Threads with Node.js (Express)
+005 | HOWTO - Run a Simple JSON Server with Node.js
+006 | HOWTO - Run Worker Threads with Node.js (Express)
+007 | HOWTO - Use Static Files with Node.js (Express)
 008 | HOWTO - Use Static Routes with Node.js (Express)
 009 | HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)
 010 | HOWTO - Use different HTTP methods with Node.js (Express)
