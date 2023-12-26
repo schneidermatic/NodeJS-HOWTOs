@@ -1,5 +1,7 @@
 # NodeJS-HOWTOs
-This repository contains a collection of NodeJS-HOWTOs for learning purposes.
+
+![LOGO](resources/images/Logo01.png)
+This repository contains a collection of NodeJS-HOWTOs for learning/demo purposes.
 
 ## TABLE OF CONTENTS
 <ol>
