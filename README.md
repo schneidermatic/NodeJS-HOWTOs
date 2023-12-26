@@ -29,7 +29,7 @@ docker-compose | v2.10.2
 ## CONTENT
 Id  | Description                                                          
 ----|----------------------------------------------------------------------
-001 | [HOWTO - Create File Uploading with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20File%20Uploading%20with%20Node.js%20(Express)/app) 
+001 | [HOWTO - Create File Uploading with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20File%20Uploading%20with%20Node.js%20(Express)/app)
 002 | [HOWTO - Create Simple HTTP(s) Client with Node.js](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20Simple%20HTTP(s)%20Client%20with%20Node.js/app)
 003 | [HOWTO - Dockerize a Node.js Web App (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Dockerize%20a%20Node.js%20Web%20App%20(Express)/app)
 004 | [HOWTO - Process JSON Post Requests with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Process%20JSON%20Post%20Requests%20with%20Node.js%20(Express)/app)
