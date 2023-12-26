@@ -57,10 +57,12 @@ Id  | Description
 ## RUN
 1. Source the APP Environment (again)
 
+        $ cd NodeJS-HOWTOs/"HOWTO - Use Static Routes with Node.js (Express)/app"
         $ source ./.apprc
 
 2. List all Shorthands
 
+        $ cd NodeJS-HOWTOs/"HOWTO - Use Static Routes with Node.js (Express)/app"
         $ app_ls
 
           _   _  _____        _______ ___
@@ -82,14 +84,14 @@ Id  | Description
 
         $ app_run
 
-5. Open your Browser an go to http://localhost:3000/public/nodejs.png
-
+5. Open your Browser an go to http://localhost:3000
 
 ## STOP
 1. Stop the app with 'ctrl-c' 
 
-2. Remove the 'node_modules' folder 
+2. Remove the 'node_modules' folder
 
+        $ cd NodeJS-HOWTOs/"HOWTO - Use Static Routes with Node.js (Express)/app"
         $ app_rm
 
 ## CONTRIBUTING
@@ -101,9 +103,3 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
