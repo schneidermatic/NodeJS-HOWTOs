@@ -1,6 +1,7 @@
 # NodeJS-HOWTOs
 
 ![LOGO](resources/images/Logo01.png)
+
 This repository contains a collection of NodeJS-HOWTOs for learning/demo purposes.
 
 ## TABLE OF CONTENTS
@@ -53,7 +54,7 @@ Id  | Description
 
 3. Open your Browser an go to http://localhost:3000/public/nodejs.png
 
-4. Stop the app with 'ctrl c' 
+4. Stop the app with 'ctrl-c' 
 
 5. Remove the 'node_modules' folder 
 
