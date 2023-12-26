@@ -80,7 +80,7 @@ Id  | Description
         app_run
         app_setup
 
-4. Runn the APP
+4. Run the APP
 
         $ app_run
 
