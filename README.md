@@ -9,6 +9,8 @@ This repository contains a collection of NodeJS-HOWTOs for learning/demo purpose
 <li><a href="#tested-with">Tested With</a></li>
 <li><a href="#content">Content</a></li>
 <li><a href="#setup">Setup</a></li>
+<li><a href="#run">Run</a></li>
+<li><a href="#stop">Stop</a></li>
 <li><a href="#contributing">Contributing</a></li>
 </ol>
 
@@ -47,21 +49,58 @@ Id  | Description
 
 2. Select one of the HOWTOs i.e. 
 
-        $ cd NodeJS-HOWTOs/"HOWTO - Create a File Uploading with Node.js (Express)"/app
+        $ cd NodeJS-HOWTOs/"HOWTO - Use Static Routes with Node.js (Express)/app"
         $ source ./.apprc
+
+3. Define the 'PROJECT_HOME' Variable in the $HOME/.nodejshw2s File
+
+## RUN
+1. Source the APP Environment (again)
+
+        $ source ./.apprc
+
+2. List all Shorthands
+
         $ app_ls
+
+          _   _  _____        _______ ___
+         | | | |/ _ \ \      / /_   _/ _ \ ___
+         | |_| | | | \ \ /\ / /  | || | | / __|
+         |  _  | |_| |\ V  V /   | || |_| \__ \
+         |_| |_|\___/  \_/\_/    |_| \___/|___/
+        
+        ----------
+        app_banner
+        app_ls
+        app_new
+        app_purge
+        app_rm
+        app_run
+        app_setup
+
+4. Runn the APP
+
         $ app_run
 
-3. Open your Browser an go to http://localhost:3000/public/nodejs.png
+5. Open your Browser an go to http://localhost:3000/public/nodejs.png
 
-4. Stop the app with 'ctrl-c' 
 
-5. Remove the 'node_modules' folder 
+## STOP
+1. Stop the app with 'ctrl-c' 
+
+2. Remove the 'node_modules' folder 
 
         $ app_rm
 
 ## CONTRIBUTING
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
