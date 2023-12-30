@@ -40,9 +40,10 @@ Id  | Description
 009 | [HOWTO - Use Static Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Static%20Routes%20with%20Node.js%20(Express))
 010 | [HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Swagger%20for%20documenting%20REST-APIs%20with%20Node.js%20(Express))
 011 | [HOWTO - Use different HTTP methods with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20different%20HTTP%20methods%20with%20Node.js%20(Express))
-012 | [HOWTO - Use Parameters to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Parameters%20to%20Routes%20with%20Node.js%20(Express))
-013 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express))
-014 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express))
+012 | [HOWTO - Use Environment Variables with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Environment%20Variables%20with%20Node.js%20(Express))
+013 | [HOWTO - Use Parameters to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Parameters%20to%20Routes%20with%20Node.js%20(Express))
+014 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express))
+015 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express))
 
 ## SETUP
 1. Clone the NodeJS-HOWTOs repo

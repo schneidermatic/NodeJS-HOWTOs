@@ -1,0 +1,12 @@
+#==============================================================================
+# FILE:          .apprc
+# AUTOHR:        Markus Schneider
+# DATE:          2023-12-23
+# PURPOSE:       App specific run command file.
+#==============================================================================
+export CWD=$(pwd)
+
+source "$CWD"/../../.apprc
+
+## Set Environment Variable 'RESP_MESSAGE'
+export RESP_MESSAGE="Message from an Environment Variable!"
