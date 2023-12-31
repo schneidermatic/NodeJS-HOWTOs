@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-NOT_ALLOWED = "/notallowed";
+const NOT_ALLOWED = "/notallowed";
 
 app.get("/", (req, res) => {
     res.end("<h1>Node.js is up and running!</h1>");
