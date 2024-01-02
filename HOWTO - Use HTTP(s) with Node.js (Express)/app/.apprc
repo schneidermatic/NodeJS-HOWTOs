@@ -1,0 +1,34 @@
+#==============================================================================
+# FILE:          .apprc
+# AUTOHR:        Markus Schneider
+# DATE:          2023-12-23
+# PURPOSE:       App specific run command file.
+#==============================================================================
+export CWD=$(pwd)
+
+source "$CWD"/../../.apprc
+
+## SET YOUR NODE_HOME !!!
+NODE_HOME=/opt/node/node-v18.14.0-linux-x64
+PATH=$NODE_HOME/bin:$PATH
+
+##----------------------------------------
+## CREATE CERTS
+##----------------------------------------
+app_create_certs() {
+    if ( -e "$CWD/ssl" )
+    then
+        rm -rf "$CWD/ssl"
+    fi
+    mkdir -p "$CWD/ssl"
+    openssl req -newkey rsa:2048 -nodes -keyout "$CWD/ssl/key.pem" -x509 -days 365 -out "$CWD/ssl/cert.pem"
+}
+
+##----------------------------------------
+## RUN THE NODE APP
+##----------------------------------------
+app_run() {
+    app_create_certs && \
+    app_setup && \
+    npm start
+}

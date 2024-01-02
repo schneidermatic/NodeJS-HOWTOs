@@ -43,9 +43,10 @@ Id  | Description
 012 | [HOWTO - Use Swagger for documenting REST-APIs with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Swagger%20for%20documenting%20REST-APIs%20with%20Node.js%20(Express))
 013 | [HOWTO - Use different HTTP methods with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20different%20HTTP%20methods%20with%20Node.js%20(Express))
 014 | [HOWTO - Use Environment Variables with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Environment%20Variables%20with%20Node.js%20(Express))
-015 | [HOWTO - Use Parameters to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Parameters%20to%20Routes%20with%20Node.js%20(Express))
-016 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express))
-017 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express))
+015 | [HOWTO - Use HTTP(s) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20HTTP(s)%20with%20Node.js%20(Express)/app)
+016 | [HOWTO - Use Parameters to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Parameters%20to%20Routes%20with%20Node.js%20(Express))
+017 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express))
+018 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express))
 
 ## SETUP
 1. Clone the NodeJS-HOWTOs repo
