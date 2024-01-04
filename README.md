@@ -35,6 +35,7 @@ Id  | Description
 004 | [HOWTO - Create an Error-handling Middleware with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20an%20Error-handling%20Middleware%20with%20Node.js%20(Express)/app)
 005 | [HOWTO - Create an Hello World App with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20an%20Hello%20World%20App%20with%20Node.js%20(Express)/app)
 006 | [HOWTO - Dockerize a Node.js Web App (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Dockerize%20a%20Node.js%20Web%20App%20(Express)/app)
+006 | [HOWTO - Execute Shell Commands in Node.js](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Execute%20Shell%20Commands%20in%20Node.js/app)
 007 | [HOWTO - Process JSON Post Requests with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Process%20JSON%20Post%20Requests%20with%20Node.js%20(Express)/app)
 008 | [HOWTO - Run a Simple JSON Server with Node.js](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Run%20a%20Simple%20JSON%20Server%20with%20Node.js/app)
 009 | [HOWTO - Set HTTP Status Codes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Set%20HTTP%20Status%20Codes%20with%20Node.js%20(Express)/app)
