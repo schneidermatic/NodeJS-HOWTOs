@@ -1,0 +1,17 @@
+#==============================================================================
+# FILE:          .apprc
+# AUTOHR:        Markus Schneider
+# DATE:          2023-12-23
+# PURPOSE:       App specific run command file.
+#==============================================================================
+export CWD=$(pwd)
+
+source "$CWD"/../../.apprc
+
+##----------------------------------------
+## RUN THE NODE APP
+##----------------------------------------
+app_run() {
+    app_setup
+    tsc --project ./tsconfig.json && npm start
+}
