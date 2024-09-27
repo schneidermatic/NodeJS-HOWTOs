@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: pgdb
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_DEFAULT_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_DEFAULT_PASSWORD:-changeme}
+      PGDATA: /data/postgres
+    volumes:
+       - postgres:/data/postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    depends_on:
+      - postgres
+    ports:
+      - "5050:80"
+    networks:
+      - postgres
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin@pgadmin.com}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-changeme}
+    restart: unless-stopped
+
+  app:
+    container_name: node_app
+    depends_on:
+      - postgres
+    build: ./src
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    networks:
+      - postgres
+    stdin_open: true
+    tty: true
+
+volumes:
+    postgres:
+
+networks:
+  postgres:
+    driver: bridge

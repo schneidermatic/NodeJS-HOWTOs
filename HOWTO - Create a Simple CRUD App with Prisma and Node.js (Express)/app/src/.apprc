@@ -1,0 +1,90 @@
+#!/usr/bin/env bash
+
+#******************************************************************************
+# Copyright 2019 the original author or authors.                              *
+#                                                                             *
+# Licensed under the Apache License, Version 2.0 (the "License");             *
+# you may not use this file except in compliance with the License.            *
+# You may obtain a copy of the License at                                     *
+#                                                                             *
+# http://www.apache.org/licenses/LICENSE-2.0                                  *
+#                                                                             *
+# Unless required by applicable law or agreed to in writing, software         *
+# distributed under the License is distributed on an "AS IS" BASIS,           *
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.    *
+# See the License for the specific language governing permissions and         *
+# limitations under the License.                                              *
+#******************************************************************************/
+
+#==============================================================================
+# SCRIPT:   .xrc
+# AUTOHR:   Markus Schneider
+# DATE:     2019-06-01
+# REV:      1.0.0
+# PLATFORM: Noarch
+# PURPOSE:  Set the project environment for running dockerw scripts.
+#==============================================================================
+
+##===============================================
+## CONFIG
+##===============================================
+export ORIGIN="node"
+export ENTITY="app"
+export TAG="1.0.0"
+export NAME="nodeapp01"
+export IMAGE="$ORIGIN/$ENTITY:$TAG"
+HOSTNAME="lnx01"
+
+export CWD=$(pwd)
+
+##===============================================
+## CLI SHORTHAND FUNCTIONS
+##===============================================
+app_build() {
+    docker build -t $IMAGE .
+}
+
+app_start() {
+   docker run -h $HOSTNAME -dit -p 3000:3000 --network wsl2_postgres --name $NAME $IMAGE 
+}
+
+app_stop() {
+   docker stop $NAME
+}
+
+app_rm() {
+   docker rm -f $NAME
+}
+
+app_rmi() {
+   docker rmi $(docker images $IMAGE -q)
+}
+
+app_setup() {
+    app_build && \
+    app_start
+}
+
+app_destroy() {
+    app_rm && \
+    app_rmi
+}
+
+app_rebuild() {
+    app_stop && \
+    app_rm && \
+    app_rmi && \
+    app_setup
+}
+
+
+#################################################
+#################################################
+#####  ---  LIST SHORTHAND FUNCTIONS ---    #####
+#################################################
+#################################################
+app_ls() {
+  echo "FUNCTIONS"
+  echo "========="
+  declare -F | grep "app_" | sed -E 's/declare -f //'
+}
