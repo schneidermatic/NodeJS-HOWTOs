@@ -13,7 +13,7 @@ RUN npm install
 # RUN npm ci --only=production
 
 # Bundle app source
-COPY server.js .
+COPY app.js .
 COPY public ./public
 COPY routes ./routes
 COPY views ./views
