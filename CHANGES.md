@@ -1,5 +1,10 @@
 # CHANGES
 
+0.3.0 (2024-09-27)
+---------------------
+* Updated - HOWTO was renamed.
+* Updated - README was modified.
+
 0.2.0 (2024-09-27)
 ---------------------
 * Added - 'HOWTO - Create a Simple CRUD App with Prisma and Node.js (Express)'.
