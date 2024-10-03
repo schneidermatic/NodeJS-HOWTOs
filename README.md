@@ -1,6 +1,6 @@
 # NodeJS-HOWTOs
 
-![LOGO](resources/images/Logo01.png)
+<img src="https://github.com/schneidermatic/NodeJS-HOWTOs/blob/develop/resources/images/Logo01.png" width="250">
 
 This repository contains a collection of NodeJS-HOWTOs for learning/demo purposes.
 
