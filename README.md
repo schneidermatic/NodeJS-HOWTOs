@@ -32,7 +32,7 @@ Id  | Description
 001 | [HOWTO - Accept input from the command line with Node.js](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Accept%20a%20input%20from%20the%20command%20line%20with%20Node.js/app)
 002 | [HOWTO - Create File Uploading with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20File%20Uploading%20with%20Node.js%20(Express)/app)
 003 | [HOWTO - Create Simple HTTP(s) Client with Node.js](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20Simple%20HTTP(s)%20Client%20with%20Node.js/app)
-004 | ['HOWTO - Create a Simple REST API with Prisma, PostgreSQL and Node.js (Express)'](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20Simple%20REST%20API%20with%20Prisma,%20PostgreSQL%20Node.js%20(Express)/app)
+004 | [HOWTO - Create a Simple REST API with Prisma, PostgreSQL and Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20a%20Simple%20REST%20API%20with%20Prisma,%20PostgreSQL%20Node.js%20(Express)/app)
 005 | [HOWTO - Create an Error-handling Middleware with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20an%20Error-handling%20Middleware%20with%20Node.js%20(Express)/app)
 006 | [HOWTO - Create an Hello World App with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Create%20an%20Hello%20World%20App%20with%20Node.js%20(Express)/app)
 007 | [HOWTO - Dockerize a Node.js Web App (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Dockerize%20a%20Node.js%20Web%20App%20(Express)/app)
