@@ -1,5 +1,10 @@
 # CHANGES
 
+0.4.0 (2024-10-03)
+---------------------
+* Added - 'HOWTO - Use Winston (Logging) with Node.js (Express).
+* Updated - Logo01.png was changed.
+
 0.3.0 (2024-09-27)
 ---------------------
 * Updated - HOWTO was renamed.
