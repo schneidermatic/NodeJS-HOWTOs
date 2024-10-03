@@ -49,8 +49,9 @@ Id  | Description
 018 | [HOWTO - Use HTTP(s) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20HTTP(s)%20with%20Node.js%20(Express)/app)
 019 | [HOWTO - Use Parameters to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Parameters%20to%20Routes%20with%20Node.js%20(Express))
 020 | [HOWTO - Use TypeScript with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20TypeScript%20with%20Node.js%20(Express)/app)
-021 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express)/app)
-022 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express)/app)
+021 | [HOWTO - Use Winston (Logging) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Winston%20(Logging)%20with%20Node.js%20(Express)/app)
+022 | [HOWTO - Use Regex to Routes with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20Regex%20to%20Routes%20with%20Node.js%20(Express)/app)
+023 | [HOWTO - Use a View Engine (EJS) with Node.js (Express)](https://github.com/schneidermatic/NodeJS-HOWTOs/tree/develop/HOWTO%20-%20Use%20a%20View%20Engine%20(EJS)%20with%20Node.js%20(Express)/app)
 
 ## SETUP
 1. Clone the NodeJS-HOWTOs repo
